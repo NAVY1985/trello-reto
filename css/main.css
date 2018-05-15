@@ -1,0 +1,256 @@
+body {
+  background-color: #00bcd4;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+/*ESTILOS SECCION NAV*/
+.container  {
+    background-color: #0094AE;
+    width: 100%;
+    height: 7.5%;
+}
+
+.container div {
+    display: inline-block;
+}
+
+.button1 button {
+    background: #66BFCF;
+    color: #ffffff;
+    height: 28px;
+    width: 150px;
+    position: relative;
+    bottom: 1px;
+    font-size: 20px;
+    left: 6%;
+    outline: none;
+    border: none;
+}
+
+.button1 span {
+    margin-left: 10px;
+}
+.fade {
+  opacity: .5;
+}
+
+.fade:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.buscador {
+    left: 1%;
+    position: relative;
+    top: 3px;
+}
+
+div.buscador {
+	border:none;
+	padding: 4px;
+	height: 20px;
+	width: 270px;
+  background: #66BFCF;
+}
+
+input.buscar {
+	border: 0px;
+	width: 240px;
+	position: relative;
+	background: #66BFCF;
+	outline: none;
+	bottom: 2px;
+	padding: 2px;
+}
+
+input.image_buscar {
+	width: 20px;
+	border: 0px;
+	position: relative;
+	top:1px;
+}
+
+.logo {
+  left: 18%;
+  position: relative;
+  top: 7px;
+}
+
+.logo img {
+  width: 90px;
+}
+
+.superior-icons {
+  left: 50%;
+  position: relative;
+}
+
+.superior-icons p {
+  display: inline-block;
+  background: #66BFCF;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+  width: 10%;
+  color: white;
+}
+/*ESTILOS PARTE 2 */
+.containerTwo {
+  width: 100%;
+  height: 17%;
+}
+
+.containerTwo div {
+  display: inline-block;
+  position: relative;
+  top: 13px;
+}
+
+.showMenu {
+  left: 66%;
+  width: 200px;
+}
+
+.showMenu button:hover {
+  background-color: #0094AE;
+  cursor: pointer;
+}
+
+.first {
+  left: 8%;
+}
+
+.first button {
+  background: transparent;
+  color: #ffffff;
+  height: 30px;
+  width: 130px;
+  position: relative;
+  bottom: 2px;
+  font-size: 18px;
+  left: 6%;
+  outline: none;
+  border: none;
+}
+
+.first button:hover {
+  background: #0094AE;
+  cursor: pointer;
+}
+
+.first span {
+  margin-left: 10px;
+}
+
+.star {
+  left: 5%;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.star:hover {
+  color: #EAFD03;
+}
+
+.text {
+  left: 2%;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.showMenu button {
+  background: transparent;
+  color: #ffffff;
+  height: 30px;
+  width: 200px;
+  position: relative;
+  bottom: 2px;
+  font-size: 18px;
+  left: 6%;
+  outline: none;
+  border: none;
+  margin-left: -15px;
+}
+/*PARTE DE TABLEROS */
+.containerThree {
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+
+.añadir {
+    display: block;
+    width: 15%;
+    position: relative;
+    left: 1%;
+    height: 7%;
+    border-radius: 5%;
+    background: #0094AE;
+}
+
+.añadir:hover {
+    background: #00798E;
+    cursor: pointer;
+
+}
+
+.añadir h4 {
+    font-size: 18px;
+    color: #5BA9B7;
+    padding: 8px;
+}
+
+.formulario {
+  display: block;
+  width: 15%;
+  background: #E2E4E6;
+  position: relative;
+  left: 1%;
+  top:30px;
+  height: 15%;
+  border-radius: 5%;
+}
+
+#hideMe {
+    height: 15px;
+    padding:5px;
+    margin-top: 8px;
+    width: 205px;
+    margin-left: 10px;
+    outline: none;
+    background: #D7D8DA;
+    border-radius: 3px;
+}
+
+.formulario #save {
+    color: #ffffff;
+    background: #519839;
+    position: relative;
+    left: 10px;
+    height: 30px;
+    outline: none;
+    border: none;
+    margin-top: 4px;
+    width: 100px;
+}
+
+.formulario #close {
+    position: relative;
+    left: 10px;
+    border: none;
+    font-size: 20px;
+    color: #4D4D4D;
+    margin-top: 6px;
+    outline: none;
+}
+
+#hide {
+    display: none;
+}
+
+#show {
+    display: block;
+}

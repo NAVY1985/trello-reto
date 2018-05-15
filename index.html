@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TRELLO</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  </head>
+  <body>
+    <!--parte superior-->
+    <nav class="container">
+      <div class="button1">
+        <button type="button" name="button" class="fade"> <i class="fab fa-trello"> <span>Tableros</span></i> </button>
+      </div>
+      <div class="buscador fade">
+          <form action="#">
+              <input type="text" class="buscar">
+              <input type="image" src="assets/image/images.png" class="image_buscar">
+          </form>
+      </div>
+      <div class="logo">
+          <span><img src="assets/image/trello-logo-blue.png" alt="logo-trello" class="fade"></span>
+      </div>
+      <div class="superior-icons">
+          <p class="iconos fade"><i class="fa fa-plus"></i></p>
+          <p class="iconos fade"><i class="fa fa-info-circle"></i></p>
+          <p class="iconos fade"><i class="fa fa-bell"></i></p>
+      </div>
+    </nav>
+    <!--SECCION DOS -->
+   <section class="containerTwo">
+      <div class="second text">
+        <span id="nameTablero"><h4>RETOS</h4></span>
+      </div>
+      <div class="second star">
+        <span><i class="far fa-star"></i></span>
+      </div>
+      <div class="second first">
+        <button type="button" name="button"><i class="fas fa-lock"></i><span>Privado</span></button>
+      </div>
+      <div class="second showMenu">
+        <button type="button" name="button"><span>...&nbsp;<u>Mostrar Menu</u></span></button>
+      </div>
+  </section>
+  <!--SECCION TABLEROS-->
+  <section class="tableros">
+      <div class="containerThree">
+           <div class="añadir" id="show">
+               <button type="button" name="button"id="añadirLista">Añadir lista&nbsp;...</button>
+           </div>
+           <div class="formulario" id="hide">
+                 <input id="hideMe" type="text" placeholder="Añadir una lista ...">
+                 <button id="save"> Guardar </button>
+                 <button id="close"><i class="fas fa-times"></i></button>
+           </div>
+        </div>
+   </section>
+
+
+
+
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>
