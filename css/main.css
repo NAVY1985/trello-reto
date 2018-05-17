@@ -226,7 +226,7 @@ input.image_buscar {
     border-radius: 3px;
 }
 
-.formulario #save {
+#save {
     color: #ffffff;
     background: #519839;
     position: relative;
@@ -238,7 +238,7 @@ input.image_buscar {
     width: 100px;
 }
 
-.formulario #close {
+#close {
     position: relative;
     left: 10px;
     border: none;
@@ -266,10 +266,10 @@ input.image_buscar {
 #card p {
   left: 7%;
   position: relative;
-  top: 8px;
+  top: 2px;
 }
 
-.newCard button {
+#addTarget {
     background: transparent;
     width: 239px;
     height: 28px;
@@ -278,12 +278,39 @@ input.image_buscar {
     border: none;
 }
 
-.newCard button:hover {
+#addTarget {
     background: #CDD2D4;
+    text-decoration: underline;
+}
+.four {
+  display: inline-block;
+}
+.four textarea {
+    position: relative;
+    left: 5%;
+    width: 87%;
+    height: 60px;
 }
 
-.four textarea {
-    
+#addButton {
+  color: #ffffff;
+  background: #519839;
+  position: relative;
+  left: 10px;
+  height: 30px;
+  outline: none;
+  border: none;
+  margin-bottom: 4px;
+  width: 100px;
+}
 
-
+#close2 {
+  position: relative;
+  left: 12px;
+  border: none;
+  font-size: 19px;
+  font-weight: bold;
+  color: #4D4D4D;
+  width:30px;
+  outline: none;
 }

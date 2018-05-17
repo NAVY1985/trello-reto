@@ -30,6 +30,7 @@ var addList = document.createElement("button");
 // se crea un nodo de texto para agregarle el nombre que tendra el boton
 var nameButton = document.createTextNode("Añadir una tarjeta ...");
    addList.appendChild(nameButton);
+   addList.setAttribute("id", "addTarget")
 
 var hideForm = document.getElementById("hide");
    hideForm.style.display = "none";
@@ -46,7 +47,7 @@ addList.addEventListener("click",function (){
   var textButton = document.createTextNode("Añadir");
   //boton de cerrar
   var closeButton = document.createElement("button");
-  var close = document.createTextNode("X");
+  var close = document.createTextNode("x");
   // se les asigna a quien pertenecen los elemnetos creados arriba
 
   newtarget.appendChild(containerFour);
@@ -59,6 +60,10 @@ addList.addEventListener("click",function (){
 
   //se le agrega una  clase  al div que se creo
   containerFour.setAttribute("class", "four");
+  //se agrega id al boton  añadir
+  createButton.setAttribute("id", "addButton");
+  //se agrega id al boton de cerrar
+  closeButton.setAttribute("id", "close2")
 
   addList.style.display = "none";
   contText.focus();
