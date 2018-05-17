@@ -26,18 +26,44 @@ var  createP = document.createElement("p");
 // se crea el boton añadir tarjeta que es el que despues tendra un evento
 var addList = document.createElement("button");
   newtarget.appendChild(addList);
-  addList.type = "submit";
+  addList.type = "button";
 // se crea un nodo de texto para agregarle el nombre que tendra el boton
-var nameButton = document.createTextNode("añadir una tarjeta");
+var nameButton = document.createTextNode("Añadir una tarjeta ...");
    addList.appendChild(nameButton);
 
-   addList.addEventListener("click", function()  {
+var hideForm = document.getElementById("hide");
+   hideForm.style.display = "none";
+   newtarget.style.display = "block";
+   //version 3
+//se agrega evento al boton añadir tarjeta
+addList.addEventListener("click",function (){
+  var containerFour = document.createElement("div");
+  //se crea un textarea para escribir
+  var contText = document.createElement("textarea");
+  //se crea boton de añadir
+  var createButton = document.createElement("button");
+  //se crea un nodo de texto con el nombre que tendra el boton
+  var textButton = document.createTextNode("Añadir");
+  //boton de cerrar
+  var closeButton = document.createElement("button");
+  var close = document.createTextNode("X");
+  // se les asigna a quien pertenecen los elemnetos creados arriba
 
+  newtarget.appendChild(containerFour);
+  containerFour.appendChild(createP);
+  containerFour.appendChild(contText);
+  containerFour.appendChild(createButton);
+  containerFour.appendChild(closeButton);
+  createButton.appendChild(textButton);
+  closeButton.appendChild(close);
 
+  //se le agrega una  clase  al div que se creo
+  containerFour.setAttribute("class", "four");
 
+  addList.style.display = "none";
+  contText.focus();
 
+});
 
-
-   });
 
 });

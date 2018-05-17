@@ -255,3 +255,35 @@ input.image_buscar {
 #show {
     display: block;
 }
+#card {
+  background: #E2E4E6;
+  width: 15%;
+  left: 1%;
+  position: relative;
+  border-radius: 5%;
+}
+
+#card p {
+  left: 7%;
+  position: relative;
+  top: 8px;
+}
+
+.newCard button {
+    background: transparent;
+    width: 239px;
+    height: 28px;
+    border-radius: 5px;
+    outline:none;
+    border: none;
+}
+
+.newCard button:hover {
+    background: #CDD2D4;
+}
+
+.four textarea {
+    
+
+
+}
