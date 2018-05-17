@@ -1,73 +1,75 @@
 body {
   background-color: #00bcd4;
+  font-family: sans-serif;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
 }
 /*ESTILOS SECCION NAV*/
 .container  {
-    background-color: #0094AE;
-    width: 100%;
-    height: 7.5%;
+  background-color: #0094AE;
+  height: 7.5%;
+  width: 100%;
 }
 
 .container div {
-    display: inline-block;
+  display: inline-block;
 }
 
 .button1 button {
-    background: #66BFCF;
-    color: #ffffff;
-    height: 28px;
-    width: 150px;
-    position: relative;
-    bottom: 1px;
-    font-size: 20px;
-    left: 6%;
-    outline: none;
-    border: none;
+  background: #66BFCF;
+  border: none;
+  bottom: 1px;
+  color: #ffffff;
+  font-size: 20px;
+  height: 28px;
+  left: 6%;
+  outline: none;
+  position: relative;
+  width: 150px;
 }
 
 .button1 span {
-    margin-left: 10px;
+  margin-left: 10px;
 }
+
 .fade {
   opacity: .5;
 }
 
 .fade:hover {
-  opacity: 1;
   cursor: pointer;
+  opacity: 1;
 }
+
 .buscador {
-    left: 1%;
-    position: relative;
-    top: 3px;
+  left: 1%;
+  position: relative;
+  top: 3px;
 }
 
 div.buscador {
-	border:none;
-	padding: 4px;
-	height: 20px;
-	width: 270px;
   background: #66BFCF;
+	border:none;
+  height: 20px;
+	padding: 4px;
+	width: 270px;
 }
 
 input.buscar {
+  background: #66BFCF;
 	border: 0px;
-	width: 240px;
-	position: relative;
-	background: #66BFCF;
+  bottom: 2px;
 	outline: none;
-	bottom: 2px;
 	padding: 2px;
+  position: relative;
+  width: 240px;
 }
 
 input.image_buscar {
-	width: 20px;
 	border: 0px;
 	position: relative;
 	top:1px;
+  width: 20px;
 }
 
 .logo {
@@ -86,19 +88,19 @@ input.image_buscar {
 }
 
 .superior-icons p {
-  display: inline-block;
   background: #66BFCF;
+  border-radius: 5px;
+  color: #ffffff;
+  display: inline-block;
   margin: 5px;
   padding: 10px;
-  border-radius: 5px;
   position: relative;
   width: 10%;
-  color: white;
 }
 /*ESTILOS PARTE 2 */
 .containerTwo {
-  width: 100%;
   height: 17%;
+  width: 100%;
 }
 
 .containerTwo div {
@@ -123,15 +125,15 @@ input.image_buscar {
 
 .first button {
   background: transparent;
-  color: #ffffff;
-  height: 30px;
-  width: 130px;
-  position: relative;
+  border: none;
   bottom: 2px;
+  color: #ffffff;
   font-size: 18px;
+  height: 30px;
   left: 6%;
   outline: none;
-  border: none;
+  position: relative;
+  width: 130px;
 }
 
 .first button:hover {
@@ -144,50 +146,50 @@ input.image_buscar {
 }
 
 .star {
-  left: 5%;
-  font-size: 18px;
   color: #ffffff;
+  font-size: 18px;
   font-weight: bold;
+  left: 5%;
 }
 
 .star:hover {
-  color: #EAFD03;
+   color: #EAFD03;
 }
 
 .text {
-  left: 2%;
-  color: #ffffff;
-  font-size: 16px;
+   color: #ffffff;
+   font-size: 16px;
+   left: 2%;
 }
 
 .showMenu button {
-  background: transparent;
-  color: #ffffff;
-  height: 30px;
-  width: 200px;
-  position: relative;
-  bottom: 2px;
-  font-size: 18px;
-  left: 6%;
-  outline: none;
-  border: none;
-  margin-left: -15px;
+   background: transparent;
+   border: none;
+   bottom: 2px;
+   color: #ffffff;
+   font-size: 18px;
+   height: 30px;
+   left: 6%;
+   margin-left: -15px;
+   outline: none;
+   position: relative;
+   width: 200px;
 }
 /*PARTE DE TABLEROS */
 .containerThree {
-  height: 500px;
-  width: 100%;
-  position: relative;
+    height: 500px;
+    position: relative;
+    width: 100%;
 }
 
 .añadir {
-    display: block;
-    width: 15%;
-    position: relative;
-    left: 1%;
-    height: 7%;
-    border-radius: 5%;
     background: #0094AE;
+    border-radius: 5%;
+    display: block;
+    height: 7%;
+    left: 1%;
+    position: relative;
+    width: 15%;
 }
 
 .añadir:hover {
@@ -196,121 +198,134 @@ input.image_buscar {
 }
 
 .añadir button {
-    width: 239px;
-    height: 33px;
-    background: transparent;
-    outline: none;
-    border: none;
-    color: #ffffff;
-    font-size: 18px;
+   background: transparent;
+   border: none;
+   color: #ffffff;
+   font-size: 18px;
+   height: 33px;
+   outline: none;
+   width: 239px;
 }
 
 .formulario {
-  display: block;
-  width: 15%;
+   background: #E2E4E6;
+   border-radius: 5%;
+   display: block;
+   height: 15%;
+   left: 1%;
+   position: relative;
+   width: 15%;
+}
+
+.four {
   background: #E2E4E6;
-  position: relative;
-  left: 1%;
-  height: 15%;
-  border-radius: 5%;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.four textarea {
+    border-radius: 5px;
+    height: 60px;
+    left: 5%;
+    position: relative;
+    width: 87%;
 }
 
 #hideMe {
-    height: 15px;
-    padding:5px;
-    margin-top: 8px;
-    width: 205px;
-    margin-left: 10px;
-    outline: none;
-    background: #D7D8DA;
-    border-radius: 3px;
+   background: #D7D8DA;
+   border-radius: 3px;
+   height: 15px;
+   margin-left: 10px;
+   margin-top: 8px;
+   outline: none;
+   padding:5px;
+   width: 205px;
 }
 
 #save {
-    color: #ffffff;
-    background: #519839;
-    position: relative;
-    left: 10px;
-    height: 30px;
-    outline: none;
-    border: none;
-    margin-top: 4px;
-    width: 100px;
+   background: #519839;
+   border: none;
+   color: #ffffff;
+   height: 30px;
+   left: 10px;
+   margin-top: 4px;
+   outline: none;
+   position: relative;
+   width: 100px;
 }
 
 #close {
-    position: relative;
-    left: 10px;
-    border: none;
-    font-size: 20px;
-    color: #4D4D4D;
-    margin-top: 6px;
-    outline: none;
+  border: none;
+  color: #4D4D4D;
+  font-size: 20px;
+  left: 10px;
+  margin-top: 6px;
+  outline: none;
+  position: relative;
 }
 
 #hide {
-    display: none;
+  display: none;
 }
 
 #show {
-    display: block;
+  display: block;
 }
+
 #card {
   background: #E2E4E6;
-  width: 15%;
+  border-radius: 3%;
   left: 1%;
   position: relative;
-  border-radius: 5%;
+  width: 15%;
 }
 
 #card p {
   left: 7%;
   position: relative;
-  top: 2px;
+  top: 4px;
 }
 
 #addTarget {
     background: transparent;
-    width: 239px;
-    height: 28px;
-    border-radius: 5px;
-    outline:none;
     border: none;
+    height: 28px;
+    outline:none;
+    width: 239px;
 }
 
-#addTarget {
+#addTarget:hover {
     background: #CDD2D4;
     text-decoration: underline;
 }
-.four {
-  display: inline-block;
-}
-.four textarea {
-    position: relative;
-    left: 5%;
-    width: 87%;
-    height: 60px;
-}
 
 #addButton {
-  color: #ffffff;
   background: #519839;
-  position: relative;
-  left: 10px;
-  height: 30px;
-  outline: none;
   border: none;
+  color: #ffffff;
+  height: 30px;
+  left: 12px;
   margin-bottom: 4px;
+  outline: none;
+  position: relative;
   width: 100px;
 }
 
 #close2 {
-  position: relative;
-  left: 12px;
   border: none;
+  color: #4D4D4D;
   font-size: 19px;
   font-weight: bold;
-  color: #4D4D4D;
-  width:30px;
+  left: 12px;
   outline: none;
+  position: relative;
+  width:30px;
+}
+
+#containerText {
+  background: #EDEFF0;
+  border-radius: 2px;
+  margin: 3px;
+  position: relative;
+  width: 200px;
 }

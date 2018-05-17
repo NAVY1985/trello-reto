@@ -68,6 +68,18 @@ addList.addEventListener("click",function (){
   addList.style.display = "none";
   contText.focus();
 
+  createButton.addEventListener("click", function(){
+     var getText = contText.value;
+     var newContainer = document.createElement("div");
+     newContainer.setAttribute("id", "containerText")
+     createP.appendChild(newContainer);
+     var lastText = document.createTextNode(getText);
+     newContainer.appendChild(lastText);
+     contText.value = "";
+
+     contText.focus();
+  });
+
 });
 
 
